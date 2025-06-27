@@ -91,7 +91,8 @@ Whenever you push changes or open a PR to the `main` branch, the tests are trigg
 
 ### ✅ GitHub Actions Run Screenshot
 
-![GitHub Actions Keploy Workflow](![onlie_keploy_api_test_cases](https://github.com/user-attachments/assets/ad8d2adf-aa82-4334-a98a-c6676b17d834))
+![GitHub Actions Keploy Workflow](![keploy-api-testing-github](https://github.com/user-attachments/assets/0dbef8c9-e6c4-43ba-85fe-eb4825319aa9)
+)
 
 ![GitHub Actions Keploy Workflow](![onlie_keploy_api_test_cases](https://github.com/user-attachments/assets/dd1655ce-8bf1-4bff-aecf-20d713a53d1a)
 )
