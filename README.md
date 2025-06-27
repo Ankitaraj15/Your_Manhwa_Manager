@@ -73,7 +73,7 @@ Thorough tests were written for the API server:
 
 > Below is a screenshot of the code coverage report:
 
-![test_manhwa_server](https://github.com/user-attachments/assets/6eaac0bd-9bb8-472a-a0fd-6847185e0697)
+![test_manhwa_server](https://github.com/Ankitaraj15/Your_Manhwa_Manager/blob/main/test_manhwa_server.png)
 
 ---
 
@@ -91,15 +91,12 @@ Whenever you push changes or open a PR to the `main` branch, the tests are trigg
 
 ### ✅ GitHub Actions Run Screenshot
 
-![GitHub Actions Keploy Workflow](https://github.com/Ankitaraj15/Your_Manhwa_Manager/blob/main/keploy-api-testing-github.png
-)
 
-![GitHub Actions Keploy Workflow](![onlie_keploy_api_test_cases](https://github.com/user-attachments/assets/dd1655ce-8bf1-4bff-aecf-20d713a53d1a)
-)
+![GitHub Actions Keploy Workflow](https://github.com/Ankitaraj15/Your_Manhwa_Manager/blob/main/onlie_keploy_api_test_cases.png)
 
 ### 🔗 View CI/CD Pipeline
 
-➡ [GitHub Actions → Keploy Test](![keploy-api-testing-github](https://github.com/user-attachments/assets/74971e12-8091-4dec-8c7b-f393117e33bb)
+➡ [GitHub Actions → Keploy Test](https://github.com/Ankitaraj15/Your_Manhwa_Manager/blob/main/keploy-api-testing-github.png)
 )
 
 ---
