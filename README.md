@@ -1,4 +1,4 @@
-<h1 align="center">📚 Manhwas Collection List Website</h1>
+<h1 align="center">📚 Your Manhwa Manager</h1>
 A full-stack web application to manage your favorite manhwas (comics)! This project was built for the Keploy API Fellowship to demonstrate API design, database integration, frontend development, and automated testing.
 
 ---
