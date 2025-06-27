@@ -15,19 +15,26 @@ const Manhwa = require('../models/manhwaModel');
  *         application/json:
  *           schema:
  *             type: object
+ *             required:
+ *               - title
  *             properties:
  *               title:
  *                 type: string
  *               author:
  *                 type: string
  *               genre:
- *                 type: string
+ *                 type: array
+ *                 items:
+ *                   type: string
  *               status:
  *                 type: string
- *               chaptersRead:
- *                 type: integer
- *               totalChapters:
- *                 type: integer
+ *                 enum: [Ongoing, Completed]
+ *               rating:
+ *                 type: number
+ *                 minimum: 0
+ *                 maximum: 10
+ *               imageUrl:
+ *                 type: string
  *     responses:
  *       201:
  *         description: Created successfully
@@ -111,13 +118,18 @@ router.get('/:id', async (req, res) => {
  *               author:
  *                 type: string
  *               genre:
- *                 type: string
+ *                 type: array
+ *                 items:
+ *                   type: string
  *               status:
  *                 type: string
- *               chaptersRead:
- *                 type: integer
- *               totalChapters:
- *                 type: integer
+ *                 enum: [Ongoing, Completed]
+ *               rating:
+ *                 type: number
+ *                 minimum: 0
+ *                 maximum: 10
+ *               imageUrl:
+ *                 type: string
  *     responses:
  *       200:
  *         description: Updated successfully
