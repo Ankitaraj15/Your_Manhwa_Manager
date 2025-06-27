@@ -1,16 +1,14 @@
-<h1 align="center">📚 Your Manhwa Manager</h1>
+<h1 align="center">📚 Manhwas Collection List Website</h1>
 A full-stack web application to manage your favorite manhwas (comics)! This project was built for the Keploy API Fellowship to demonstrate API design, database integration, frontend development, and automated testing.
 
 ---
 
- ## 📁 Project Structure
+## 📁 Project Structure
 
 Manhwa_collection_list_website/
-
 ├── manhwa-api-server/ # Node.js + Express backend with MongoDB
 
 └── manhwa-frontend/ # React.js frontend for interacting with API
-
 ---
 
 ## ✨ Features
@@ -74,8 +72,33 @@ Thorough tests were written for the API server:
 
 > Below is a screenshot of the code coverage report:
 
-![Test Coverage Report]![test_manhwa_server](https://github.com/user-attachments/assets/6eaac0bd-9bb8-472a-a0fd-6847185e0697)
+![test_manhwa_server](https://github.com/user-attachments/assets/6eaac0bd-9bb8-472a-a0fd-6847185e0697)
 
+---
+
+## ⚙️ CI/CD with Keploy (API Testing)
+
+This project uses **GitHub Actions** + **Keploy** to automatically test APIs in the cloud as part of CI/CD.
+
+Whenever you push changes or open a PR to the `main` branch, the tests are triggered and executed in the Keploy cloud dashboard.
+
+### 🔐 Secrets & Integration
+
+- `KEPLOY_API_KEY` was stored securely in GitHub Secrets.
+- GitHub Actions workflow runs Keploy CLI against deployed app.
+- The setup ensures robust API monitoring & regression testing.
+
+### ✅ GitHub Actions Run Screenshot
+
+![GitHub Actions Keploy Workflow](![onlie_keploy_api_test_cases](https://github.com/user-attachments/assets/ad8d2adf-aa82-4334-a98a-c6676b17d834))
+
+![GitHub Actions Keploy Workflow](![onlie_keploy_api_test_cases](https://github.com/user-attachments/assets/dd1655ce-8bf1-4bff-aecf-20d713a53d1a)
+)
+
+### 🔗 View CI/CD Pipeline
+
+➡ [GitHub Actions → Keploy Test](![keploy-api-testing-github](https://github.com/user-attachments/assets/74971e12-8091-4dec-8c7b-f393117e33bb)
+)
 
 ---
 
@@ -130,12 +153,7 @@ Thorough tests were written for the API server:
 [🔗 GitHub Repository](https://github.com/Ankitaraj15/Manhwa_collection_list_website)
 
 ### 👩‍💻 Author
-Ankita Raj
+Ankita Raj  
 📧 ankitaraj.cse26@kiit.ac.in
 
 This project was created as part of the API Fellowship by Keploy. It demonstrates real-world application development, testing best practices, and full-stack deployment from scratch.
-Let me know if you want:
-- The image path changed
-- API schema auto-generated (e.g., Swagger)
-- A deployed version link section  
-- or the README broken into sections (README.md, API.md, TESTS.md, etc.)
