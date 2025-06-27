@@ -1,0 +1,26 @@
+name: Keploy API Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-keploy-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Keploy CLI
+        run: |
+          curl --silent -L https://keploy.io/ent/install.sh | bash
+
+      - name: Run Keploy Test Suite
+        run: |
+          export KEPLOY_API_KEY=${{ secrets.KEPLOY_API_KEY }}
+          keploy test-suite --app=fa96c7e5-10e6-4a77-a273-e3f551a6efe2 --base-path=https://your-manhwa-manager-5.onrender.com/ --cloud
