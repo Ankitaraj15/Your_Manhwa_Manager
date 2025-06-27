@@ -6,7 +6,9 @@ A full-stack web application to manage your favorite manhwas (comics)! This proj
  ## 📁 Project Structure
 
 Manhwa_collection_list_website/
+
 ├── manhwa-api-server/ # Node.js + Express backend with MongoDB
+
 └── manhwa-frontend/ # React.js frontend for interacting with API
 
 ---
